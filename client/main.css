@@ -1,0 +1,56 @@
+body {
+	background-color: rgb(0,0,0);
+	color: white;
+	font-family: sans-serif;
+}
+
+#header {
+	font-size: 40px;
+	margin: 0 0 12px 0;
+	text-align: center;
+}
+
+#list {
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: rgb(22, 22, 22);
+	padding: 12px 0 12px 0;
+}
+
+/* task container */
+#list div {
+	display: flex;
+	padding: 6px 0 6px 0;
+}
+
+/* task items */
+#list div div{
+	width: 50%;
+}
+
+/* task text container */
+span {
+	word-wrap: break-word;
+	margin: 0 auto;
+	text-align: center;
+}
+
+select {
+	margin: 0 auto;
+}
+
+/* task delete button */
+div button {
+	height: 25px;
+	margin: 0 auto;
+}
+
+/* add button container */
+#btn_container {
+	display: flex;
+	padding: 12px;
+}
+
+#add_btn {
+	margin: 0 auto;
+}

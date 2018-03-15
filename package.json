@@ -1,0 +1,26 @@
+{
+  "name": "todolist-api",
+  "version": "1.0.0",
+  "description": "RESTful todolist API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"mongod\" \"nodemon server.js\""
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Tutorial"
+  ],
+  "author": "michael karpinski",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.17.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.10"
+  }
+}

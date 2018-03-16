@@ -1,4 +1,4 @@
-'use scrict'
+'use strict'
 
 const Routes = function(app){
 	const todoList = require("../controllers/todoListController")

@@ -4,7 +4,7 @@ In the root directory, enter the following commands:
 
 `npm i`
 
-`num run start`
+`npm run start`
 
 If you have any problems with Concurrently, try running `npm i concurrently --global`
 
